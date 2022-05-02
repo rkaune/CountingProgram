@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Mr. Kaune
+   May 2, 2022
+   This program counts.
  */
 package countingprogram;
 
@@ -61,7 +61,7 @@ public class CountingProgram {
                 int second = input.nextInt();
                 System.out.println(first);
                 System.out.println(second);
-                for(int i=first;i<second;i++){
+                for(int i=first;i<=second;i++){
                     System.out.println(i);
                 }
             }
